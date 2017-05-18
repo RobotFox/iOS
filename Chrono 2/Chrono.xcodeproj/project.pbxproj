@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4031898D8099A64C1E4CF788 /* Pods_Chrono.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB75CDA87E7DFD1BB6ACD6EE /* Pods_Chrono.framework */; };
+		4DB7C6E31EBCC9B200A28C06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7C6E21EBCC9B200A28C06 /* AppDelegate.swift */; };
+		4DB7C6E51EBCC9B200A28C06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7C6E41EBCC9B200A28C06 /* ViewController.swift */; };
+		4DB7C6E81EBCC9B200A28C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7C6E61EBCC9B200A28C06 /* Main.storyboard */; };
+		4DB7C6EA1EBCC9B200A28C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7C6E91EBCC9B200A28C06 /* Assets.xcassets */; };
+		4DB7C6ED1EBCC9B200A28C06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7C6EB1EBCC9B200A28C06 /* LaunchScreen.storyboard */; };
+		4DB7C6F71EBCCB9900A28C06 /* Stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7C6F61EBCCB9900A28C06 /* Stop.png */; };
+		4DB7C6FD1EBCCEF200A28C06 /* Pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7C6FC1EBCCEF200A28C06 /* Pause.png */; };
+		4DB7C6FF1EBCCF5700A28C06 /* PlayI.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7C6FE1EBCCF5700A28C06 /* PlayI.png */; };
+		4DB7C7011EBCCFA400A28C06 /* Lap.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7C7001EBCCFA400A28C06 /* Lap.png */; };
+		4DB7C7031EBCD09F00A28C06 /* Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7C7021EBCD09F00A28C06 /* Clear.png */; };
+		4DB7C7051EBCD12D00A28C06 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7C7041EBCD12D00A28C06 /* digital-7.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DB7C6DF1EBCC9B200A28C06 /* Chrono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chrono.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB7C6E21EBCC9B200A28C06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DB7C6E41EBCC9B200A28C06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DB7C6E71EBCC9B200A28C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DB7C6E91EBCC9B200A28C06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DB7C6EC1EBCC9B200A28C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DB7C6EE1EBCC9B200A28C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB7C6F61EBCCB9900A28C06 /* Stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stop.png; sourceTree = "<group>"; };
+		4DB7C6FC1EBCCEF200A28C06 /* Pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pause.png; sourceTree = "<group>"; };
+		4DB7C6FE1EBCCF5700A28C06 /* PlayI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayI.png; sourceTree = "<group>"; };
+		4DB7C7001EBCCFA400A28C06 /* Lap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lap.png; sourceTree = "<group>"; };
+		4DB7C7021EBCD09F00A28C06 /* Clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clear.png; sourceTree = "<group>"; };
+		4DB7C7041EBCD12D00A28C06 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "digital-7.ttf"; path = "digital_7/digital-7.ttf"; sourceTree = "<group>"; };
+		563A7D0BD4A9A4D1677298A4 /* Pods-Chrono.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chrono.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chrono/Pods-Chrono.debug.xcconfig"; sourceTree = "<group>"; };
+		ED6DB547642FE87769209BB9 /* Pods-Chrono.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chrono.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chrono/Pods-Chrono.release.xcconfig"; sourceTree = "<group>"; };
+		FB75CDA87E7DFD1BB6ACD6EE /* Pods_Chrono.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chrono.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DB7C6DC1EBCC9B200A28C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4031898D8099A64C1E4CF788 /* Pods_Chrono.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DB7C6D61EBCC9B200A28C06 = {
+			isa = PBXGroup;
+			children = (
+				4DB7C6E11EBCC9B200A28C06 /* Chrono */,
+				4DB7C6E01EBCC9B200A28C06 /* Products */,
+				E77CD300291F514C8D24CD2F /* Pods */,
+				FD9B59D39D61A11A46FC450F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DB7C6E01EBCC9B200A28C06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7C6DF1EBCC9B200A28C06 /* Chrono.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DB7C6E11EBCC9B200A28C06 /* Chrono */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7C6F41EBCC9E700A28C06 /* icons */,
+				4DB7C6E21EBCC9B200A28C06 /* AppDelegate.swift */,
+				4DB7C6E41EBCC9B200A28C06 /* ViewController.swift */,
+				4DB7C6E61EBCC9B200A28C06 /* Main.storyboard */,
+				4DB7C6E91EBCC9B200A28C06 /* Assets.xcassets */,
+				4DB7C6EB1EBCC9B200A28C06 /* LaunchScreen.storyboard */,
+				4DB7C6EE1EBCC9B200A28C06 /* Info.plist */,
+				4DB7C6F51EBCCA8300A28C06 /* fonts */,
+			);
+			path = Chrono;
+			sourceTree = "<group>";
+		};
+		4DB7C6F41EBCC9E700A28C06 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7C7021EBCD09F00A28C06 /* Clear.png */,
+				4DB7C7001EBCCFA400A28C06 /* Lap.png */,
+				4DB7C6FE1EBCCF5700A28C06 /* PlayI.png */,
+				4DB7C6FC1EBCCEF200A28C06 /* Pause.png */,
+				4DB7C6F61EBCCB9900A28C06 /* Stop.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		4DB7C6F51EBCCA8300A28C06 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7C7041EBCD12D00A28C06 /* digital-7.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		E77CD300291F514C8D24CD2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				563A7D0BD4A9A4D1677298A4 /* Pods-Chrono.debug.xcconfig */,
+				ED6DB547642FE87769209BB9 /* Pods-Chrono.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD9B59D39D61A11A46FC450F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB75CDA87E7DFD1BB6ACD6EE /* Pods_Chrono.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DB7C6DE1EBCC9B200A28C06 /* Chrono */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB7C6F11EBCC9B200A28C06 /* Build configuration list for PBXNativeTarget "Chrono" */;
+			buildPhases = (
+				33EA472449A41ECCC9559686 /* [CP] Check Pods Manifest.lock */,
+				4DB7C6DB1EBCC9B200A28C06 /* Sources */,
+				4DB7C6DC1EBCC9B200A28C06 /* Frameworks */,
+				4DB7C6DD1EBCC9B200A28C06 /* Resources */,
+				0ADED7F8ED277D54E1A166E7 /* [CP] Embed Pods Frameworks */,
+				B9DF37DE83B550D268F30AD2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chrono;
+			productName = Chrono;
+			productReference = 4DB7C6DF1EBCC9B200A28C06 /* Chrono.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DB7C6D71EBCC9B200A28C06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Sam;
+				TargetAttributes = {
+					4DB7C6DE1EBCC9B200A28C06 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4DB7C6DA1EBCC9B200A28C06 /* Build configuration list for PBXProject "Chrono" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DB7C6D61EBCC9B200A28C06;
+			productRefGroup = 4DB7C6E01EBCC9B200A28C06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DB7C6DE1EBCC9B200A28C06 /* Chrono */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DB7C6DD1EBCC9B200A28C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB7C6FD1EBCCEF200A28C06 /* Pause.png in Resources */,
+				4DB7C6ED1EBCC9B200A28C06 /* LaunchScreen.storyboard in Resources */,
+				4DB7C6EA1EBCC9B200A28C06 /* Assets.xcassets in Resources */,
+				4DB7C6E81EBCC9B200A28C06 /* Main.storyboard in Resources */,
+				4DB7C6FF1EBCCF5700A28C06 /* PlayI.png in Resources */,
+				4DB7C6F71EBCCB9900A28C06 /* Stop.png in Resources */,
+				4DB7C7031EBCD09F00A28C06 /* Clear.png in Resources */,
+				4DB7C7011EBCCFA400A28C06 /* Lap.png in Resources */,
+				4DB7C7051EBCD12D00A28C06 /* digital-7.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ADED7F8ED277D54E1A166E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chrono/Pods-Chrono-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33EA472449A41ECCC9559686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9DF37DE83B550D268F30AD2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chrono/Pods-Chrono-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DB7C6DB1EBCC9B200A28C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB7C6E51EBCC9B200A28C06 /* ViewController.swift in Sources */,
+				4DB7C6E31EBCC9B200A28C06 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DB7C6E61EBCC9B200A28C06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB7C6E71EBCC9B200A28C06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DB7C6EB1EBCC9B200A28C06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB7C6EC1EBCC9B200A28C06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DB7C6EF1EBCC9B200A28C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DB7C6F01EBCC9B200A28C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DB7C6F21EBCC9B200A28C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 563A7D0BD4A9A4D1677298A4 /* Pods-Chrono.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chrono/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = inc.sam.Chrono;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4DB7C6F31EBCC9B200A28C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6DB547642FE87769209BB9 /* Pods-Chrono.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chrono/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = inc.sam.Chrono;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DB7C6DA1EBCC9B200A28C06 /* Build configuration list for PBXProject "Chrono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB7C6EF1EBCC9B200A28C06 /* Debug */,
+				4DB7C6F01EBCC9B200A28C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DB7C6F11EBCC9B200A28C06 /* Build configuration list for PBXNativeTarget "Chrono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB7C6F21EBCC9B200A28C06 /* Debug */,
+				4DB7C6F31EBCC9B200A28C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DB7C6D71EBCC9B200A28C06 /* Project object */;
+}
