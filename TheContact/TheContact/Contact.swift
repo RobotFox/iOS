@@ -19,8 +19,6 @@ class Contact {
     
     var phone:String
     
-    
-    
     init(id:Int64) {
         self.id = id
         name = ""
